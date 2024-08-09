@@ -1,0 +1,25 @@
+Primeiros passos 
+
+Quando abrir o cmder precisa informar quem você é.
+
+comandos básicos: 
+git --version  Mostra a versão do git.
+git config --global --list  Mostra lista de configução dentro do git
+git config --global user.name "Jefferson Fernandes"  Indica ao git o nome do usuário.
+git config --global user.email "jefferson.santosfernandes@hotmail.com"  Indica ao git o email do usuário.
+git pull é utilizado para atualizar o diretorio do computador com as alterações realizadas no diretorio git.
+git push é utilizado para "empurrar" no caso, enviar as alterações para o repositorio remoto.
+
+Criando repositorio Git
+
+
+Para criar um repositorio Git basta entrar na pasta do projeto e digitar: git init. Que o 
+Terminal irá criar pastas do repositorio git dentro do projeto.
+"ls" para listar pastas na dir.
+Na situação acima o git entra em processo de modfied.
+
+Processo de Staging
+
+git status mostra situação do projeto (Arquivos que ainda não foram rastreados).
+git add 'Nome do arquivo' adiciona um arquivo a ser rastrado pelo git.
+git add . adiciona todos os arquivos para serem commitados.
